@@ -32,7 +32,6 @@
 		row ++;
 	}
 	
-	out.println("filename:    " + filename + "<br>");
 	String PathPic= "img/" + filename;
 	filename = request.getRealPath("/") + "img/" + filename;
 	FileOutputStream fout = new FileOutputStream(filename);
@@ -45,8 +44,7 @@
 	fout.flush();
 	fout.close();
 	File f = new File(filename);
-	out.println(f.exists());
-	out.println(f.getAbsolutePath());
+
 	
 %>
 <%
@@ -69,7 +67,7 @@
 	if (rs.next()) {
         out.print("<script>alert(\"商品已存在，请重新输入商品\");window.history.go(-1);</script>"); 
 	} else {
-		out.print("<script>alert(\"添加成功！,请返回\");</script>");
+		out.print("<script>alert(\"添加成功！,请返回\");window.history.go(-1);</script>");
 		String sql = "Insert into shop(SP_NAME,SP_PRICE,SP_INFO,SP_PIC1,SP_PIC,SP_A,IMG)values(?,?,?,?,?,?,?)";
 		pstat = conn.prepareStatement(sql);
 		pstat.setString(1, NAME);

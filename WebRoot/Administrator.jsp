@@ -106,7 +106,6 @@
 					<thead>
 						<tr>
 							<th>商品图片</th>
-							<th>编号</th>
 							<th>商品名</th>
 							<th>描述</th>
 							<th>价格</th>
@@ -116,7 +115,6 @@
 					<tbody>
 						<tr>
 							<td><input type="file" name="file"></td>
-							<td><input type="text" name="SP_NO"></td>
 							<td><input type="text" name="SP_NAME"></td>
 							<td><input type="text" name="SP_INFO"></td>
 							<td><input type="text" name="SP_PRICE"></td>
