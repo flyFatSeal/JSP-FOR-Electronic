@@ -1,0 +1,58 @@
+#input {
+	width:400px;
+	height: 25px;
+	border:1px solid #000;
+}
+button {
+	width: 50px;
+	height: 26px;
+	background: #25211ea3;
+	border-radius: 5px;
+	color:#fff;
+}
+#btn {
+	width: 50px;
+	height: 26px;
+	background: #25211ea3;
+	border-radius: 5px;
+	color:#fff;
+	margin-left: 10px
+}
+#btnSubmit {
+	width: 50px;
+	height: 26px;
+	background: #25211ea3;
+	border-radius: 5px;
+	color:#fff;
+	margin-left: 10px
+}
+
+#tableTwo{
+	display: none;
+}
+td {
+	text-align:center;
+}
+#form {
+	width: 500px;
+}
+
+#btn1 {
+		width: 50px;
+	height: 26px;
+	background: #25211ea3;
+	border-radius: 5px;
+	color:#fff;
+	margin-left: 10px
+}
+#btn2 {
+		width: 50px;
+	height: 26px;
+	background: #25211ea3;
+	border-radius: 5px;
+	color:#fff;
+	margin-left: 10px
+}
+input{
+	width: 74px;
+}

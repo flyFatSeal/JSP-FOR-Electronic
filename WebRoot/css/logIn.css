@@ -1,0 +1,27 @@
+* { font-family: kaiti;font-size: 14px;margin: 0;padding: 0;border: none;}
+.banner { height: 400px;width: 100%; position: relative; }
+.banner > section > aside { height: 200px; width: 400px; position: absolute; top: 18%; left: 10%;}
+.banner > section > aside > .h2 { margin-top: 30px; }
+.banner > section > aside > h2 { margin-top: 20px;  font-size: 15px; opacity: 0.4}
+.banner > section > aside > h1 { font-size:18px; opacity: 0.5}
+.banner > section > div { height: 200px; width: 400px; position: absolute; left: 50%; top: 15%; border: 1px solid #D6D6D6; border-radius: 5px;}
+.banner > section > div >div:nth-child(1){ height: 100px; width: 100% ;}
+ form > fieldset > input{ width:250px;height:30px; background: #D6D6D6; border-radius: 5px; }
+.login { width: 40px; height: 30px; background: #000; color: #D6D6D6; margin-left: 20px; margin-top: 30px; border-radius: 5px; }
+ form { margin-top: 20px; padding:0px 15px 15px 24px; width:480px;height:150px; }
+ form > fieldset { border:0; }
+ form > fieldset > label { font-size: 18px;}
+ form > div { width: 250px; height: 1px; background:#D6D6D6; margin-top:30px;margin-left:80px;}
+button { width: 40px; height: 30px; background: #000; color: #D6D6D6; margin-left: 20px; margin-top: 30px; border-radius: 5px;}
+
+.banner > section > div:nth-of-type(2) {display:none; width:400px; height: 300px; }
+.banner > section > div:nth-of-type(2) > div:nth-child(1) { height: 200px; }
+.banner > section > div:nth-of-type(1) {display:block; }
+.banner > section > div > div:nth-child(3) {width: 300px; height: 1px; background:#D6D6D6; margin: 0 auto;}
+.bottom{ height: 723px;width: 100%; background-image:url(../img/bottom.png);  }
+
+
+
+footer { position: relative; background: #25211E; background: #000; }
+footer>.container { width: 1200px; height: 64px; margin: 0 auto; position: relative; }
+footer>.container>p { position: absolute; top: 40%;  left:35%; margin: 0 auto; text-align: center; opacity: .7; color: #fff;} 

@@ -1,0 +1,27 @@
+/* All tag */
+* { font-family: Arial; font-size: 14px; margin: 0; padding: 0; border: none; }
+a { text-decoration: none; }
+ul { list-style: none; }
+
+/* header */
+header { position: relative; height: 130px; background: #fff; }
+header:after { position: absolute; bottom: 0; left: 0; width: 100%; height: 7px; content: ''; background: #d6d6d6; }
+header > .container { position: relative; z-index: 1; width: 1500px; margin: 0 auto; height: 120px;}
+header > .container > a { display: block; float: left; margin: 25px -215px; }
+header > .container > a > img { transform:scale(0.4,0.4); float: right; }
+header > .container > nav {  float: left; margin: 20px 450px;}
+header > .container > div { float: right; position: absolute; left: 85%; top: 35%; }
+header > .container > div > a > img { padding-right: 30px; }
+
+/* nav */
+nav > a { font-family: kaiti; font-size: 17px; line-height: 80px; display: block; float: left; width: 110px; height: 80px; text-align: center; color: #999999; }
+nav > a:hover,
+nav > a.active {color: #000; }
+
+.banner{ height: 400px;width: 100%; }
+.bottom{ height: 723px;width: 100%; background-image:url(../img/bottom.png);  }
+
+
+footer { position: relative; background: #25211E; }
+footer>.container { width: 1200px; height: 64px; margin: 0 auto; position: relative; }
+footer>.container>p { position: absolute; top: 40%;  left:35%; margin: 0 auto; text-align: center; opacity: .7; color: #fff;} 

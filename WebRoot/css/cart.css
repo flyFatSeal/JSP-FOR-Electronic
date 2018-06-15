@@ -1,0 +1,84 @@
+
+body { width: 100%;height: 100%;}
+thead { border: 5px; }
+tr { height:40px; }
+td { border-bottom: 1px solid #e8e0e0; height: 112px; }
+input {width:50px; height:40px; }
+.bottom{ height: 100%;width: 100%; background-image:url(../img/bottom.png); background-size: 100%; }
+
+
+footer { position: relative; background: #25211E; width: 100%; height: 12%; }
+footer>.container { width: 100%; height: 100%; margin: 0 auto; position: relative; background: #000; }
+footer>.container>p { position: absolute; top: 40%;  left:35%; margin: 0 auto; text-align: center; opacity: .7; color: #fff;} 
+
+
+
+.banner {height: 120%;width: 100%;}
+.banner > section { width: 100%; height: 100%; }
+.banner > section > section { font-size: 16px; color:#10ac62;  margin-left: 5%; margin-top: 5%; width: 1190px; height: 53px; line-height: 53px; border: 1px solid #10ac62; float: left; }
+.banner >section >table{
+	width: 50%;
+	background: #fff;
+	margin:8% 0 0 7%;
+	text-align: center;
+	border-collapse: collapse;
+}
+.banner > section > table > thead > tr {
+	border-bottom: 4px solid #e8e0e0;
+	border-collapse:collapse;
+}
+
+.banner >section > table > tbody > td {
+	width:60px;
+}
+.banner >section > table > tbody > td:nth-child(1){
+    text-align:left;
+}
+
+
+
+
+
+.banner >section > table > tfoot> tr > td{
+	text-align: left;
+	border-bottom: 0px;
+}
+.banner >section > table > tfoot> tr > td > button{
+    width:92px;
+    height: 33px;
+    cursor: pointer;
+    color: #fff;
+    background: #000;
+}
+.banner > section > div {
+	width: 10px;
+	height: 200px;
+	background: #e8e0e0;
+	float: left;
+}
+.banner >section > table > tfoot> tr > td{
+	text-align: left;
+	border-bottom: 0px;
+}
+.banner >section > table > tfoot> tr > td > a > button{
+    width:92px;
+    height: 33px;
+    cursor: pointer;
+    color: #fff;
+    background: #000;
+}
+
+#table{ 
+	width: 25%;
+	height: 300px;
+	background: #fff;
+	margin:-30% 0 0 63%;
+	text-align: left;
+	border-collapse: collapse;
+}
+#table > tbody > tr,td {
+	height: 3px;
+}
+#table > tfoot > tr,td {
+	height: 3px;
+}
