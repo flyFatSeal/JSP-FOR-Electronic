@@ -13,7 +13,7 @@
 <% 
 String username=request.getParameter("username"); //从表单获得 
 String password=request.getParameter("password"); //从表单获得 
-String Admin="demouser";
+String Admin="DemoUser";
 
 try {  
  // 加载数据库驱动，注册到驱动管理器  

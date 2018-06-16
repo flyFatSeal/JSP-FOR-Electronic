@@ -19,7 +19,6 @@
 	String mark = "";
 	String filename = "";
 	while ((length = sin.readLine(buffer, 0, buffer.length)) > 0) {
-		out.println(length + "    " + new String(buffer, 0, length, "UTF-8") + "<br>");
 		String s = new String(buffer, 0, length, "UTF-8");
 		if (row == 0)
 			mark = s.trim();
@@ -31,7 +30,6 @@
 			break;
 		row ++;
 	}
-	
 	String PathPic= "img/" + filename;
 	filename = request.getRealPath("/") + "img/" + filename;
 	FileOutputStream fout = new FileOutputStream(filename);
@@ -49,9 +47,10 @@
 %>
 <%
 	String NAME = request.getParameter("name"); //从表单获得 
+	NAME = new String(NAME.getBytes("iso-8859-1"),"utf-8");
 	String PRICE = request.getParameter("price");
 	String INFO = request.getParameter("info");
-	out.println(NAME);
+	INFO = new String(INFO.getBytes("iso-8859-1"),"utf-8");
 	String A = "shangpin1.jsp";
 	String PIC = PathPic;
 	String PIC1 = PathPic;

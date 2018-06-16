@@ -114,10 +114,10 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td><input type="file" name="file"></td>
-							<td><input type="text" name="SP_NAME"></td>
-							<td><input type="text" name="SP_INFO"></td>
-							<td><input type="text" name="SP_PRICE"></td>
+							<td><input type="file" name="file" required="required"></td>
+							<td><input type="text" name="SP_NAME" required="required"></td>
+							<td><input type="text" name="SP_INFO" required="required"></td>
+							<td><input type="number" name="SP_PRICE" required="required"></td>
 							<td><input type="button" value="清空"></td>
 						</tr>
 					</tbody>
@@ -138,57 +138,7 @@
         </div>
     </footer>
 </body>
-  <script src="<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">"></script>
-  <script>
-    var clean = document.getElementById("clean");
-    clean.onclick=function(){
-       window.location="clean.jsp"; 
-    }
-    let btn2 = document.getElementById('btn1')
-    let btn1=document.getElementById('btn')
-    let btn3=document.getElementById('btn2')
-    let change=document.getElementsByClassName('onChange')
-    let table=document.getElementById('tableOne')
-    let tableTwo=document.getElementById('tableTwo')
-    let price=document.getElementsByClassName('price')
-    btn2.onclick=function(){
-    	table.style.display='none'
-    	tableTwo.style.display='block'
-    }
-    btn3.onclick=function(){
-    	table.style.display='block'
-    	tableTwo.style.display='none'
-    }
-    for(let i=0;i<change.length;i++){
-    	change[i].onclick=function(){
-    	price[i].style.display="block"
-    	change[i].style.display="none"
-    	}
-    }
-  </script>
+  <script src="js/Admin.js"></script>
   <script src="js/common.js"></script>
-  <script language="javascript"> 
-   	let btn=document.getElementById('btnSubmit');
-   	let form =document.getElementById('tableTwo');
-   	let inputs =form.getElementsByTagName('input');
-   	console.log(inputs.length);
-   	btn.onclick=function(){
-   		let url= getUrl();
-   		form.action= url;
-   	}
-    function updatePrice(id,price){  
-        var url = "management.jsp?option=update&id="+id+"&price="+price;  
-        window.location = url;  
-    }
-    function getUrl(){  
-        let id = inputs[1].value;
-        let name = inputs[2].value;
-        let info = inputs[3].value;
-        let price = inputs[4].value;
-        let url = "pic.jsp?&id="+id+"&name="+name+"&info="+info+"&price="+price;
-        console.log(url);
-        return url;
-    }
-     
-  </script>   
+
 </html>

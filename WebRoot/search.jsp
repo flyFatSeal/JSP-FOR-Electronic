@@ -131,7 +131,7 @@
                 out.println("<div class=\"yifu\">");   
                 out.println("<div>");
                 out.println("<a href='"+a+"?bm="+bm+"''>");       
-                out.println("<img src='"+ img +"' >");
+                out.println("<img width=70% src='"+ img +"' >");
                 out.println("</a>");   
                 out.println("<p>"+ info +"</p>");  
                 out.println("</div>"); 

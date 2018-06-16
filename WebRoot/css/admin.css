@@ -59,7 +59,8 @@ table {
     width:622px;
     height:423px;
 	background: #f0f3f7;
-	overflow: auto
+	overflow: auto;
+	display: block;
 }
 
 .banner > section > section:nth-child(3) > div{
