@@ -24,7 +24,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<title>shop</title>
 	  <link rel="stylesheet" type="text/css" href="css/cart.css">
 	  <link rel="stylesheet" type="text/css" href="css/common.css">
-	  <script src="script/xuanfa.js"></script>
 </head>
 <body>
 	<header>
@@ -90,6 +89,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div id="beijing"></div>
 	<section class="banner">
 		<section>
+			<p id="titleCart"><span>商城</span>&nbsp;&nbsp;&nbsp;购物车</p>
 		    <section>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%out.println(name1);%>成功加入购物车</section>
 			<table >
 				<thead>
@@ -120,8 +120,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 out.println("<td ><img width=90px height=90px src='"+ IMG +"' ></td>"); 
                 out.println("<td>"+ name +"</td>");  
                 out.println("<td>"+ price +"</td>");  
-                out.println("<td><input type=number width=60px value="+ num +" onChange=\"updateNum('"+id+"',this.value,'"+price+"')\"></td>");  
-                out.println("<td>"+ count +"</td>");  
+                out.println("<td class=\"onchange\" ><input type=number width=60px value="+ num +" onChange=\"updateNum('"+id+"',this.value,'"+price+"')\"></td>");  
+                out.println("<td class=\"count\">"+ count +"</td>");  
                 out.println("<td><a href='buy.jsp?op=del&id="+id+"'>删除商品</a></td>");  
                 out.println("</tr>");  
             }  
@@ -147,17 +147,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tbody>
 					<tr>
 						<td>购物车小计</td>
-						<td></td>
+						<td class="getPrice"></td>
 						<td></td>
 					</tr>
 					<tr>
 						<td>运费</td>
-						<td></td>
 						<td>免费运输</td>
+						<td></td>
 					</tr>
 					<tr>
 						<td>购物车总计</td>
-						<td></td>
+						<td class="getPrice"></td>
 						<td></td>
 					</tr>
 				</tbody>
@@ -182,11 +182,5 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         </div>
     </footer>
 </body>
-<script language="javascript">  
-    function updateNum(id,num,price){  
-    	console.log('2');
-        var url = "buy.jsp?op=update&id="+id+"&num="+num+"&price="+price;  
-        window.location = url;  
-    }  
-  </script>   
+<script language="javascript" src="js/cart.js"></script>   
 </html>

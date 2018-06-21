@@ -20,7 +20,7 @@ footer>.container>p { position: absolute; top: 40%;  left:35%; margin: 0 auto; t
 .banner>section>div:nth-child(2) {width: 100%;height: 80%;float: left;margin-top: 0;margin-left: 0;}
 .banner>section>div:nth-child(2)>.yifu {float: left;height: 47%;width: 33.15%;background: yellow;text-align: center;background: #E7E7E7;margin-top: 6px;}
 .banner>section>div:nth-child(2)>.yifu>div {height: 95%;width: 95%;margin: 0 auto;margin-top: 10px;}
-.banner>section>div:nth-child(2)>.yifu>div>p {font-size: 0.6rem;opacity: 0.7;}
+.banner>section>div:nth-child(2)>.yifu>div>p {font-size: 1.6rem;opacity: 0.7;}
 .banner > section > div:nth-child(2) >.yifu>div>img {display: block;cursor: pointer;margin: 0 auto;}
 .banner > section > div:nth-child(2) >.yifu>div:hover { animation: bianhua .7s;animation-fill-mode:forwards;}
 @keyframes bianhua {0% {border: 0px;}100% {box-shadow: 0px 0px 15px rgba(0, 0, 0, .4);margin-top: -1px;}}

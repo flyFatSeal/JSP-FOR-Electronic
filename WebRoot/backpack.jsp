@@ -29,7 +29,6 @@
     <title>shop</title>
     <link rel="stylesheet" type="text/css" href="css/commonshow.css">
     <link rel="stylesheet" type="text/css" href="css/common.css">
-    <script src="script/xuanfa.js"></script>
 </head>
 
 <body>

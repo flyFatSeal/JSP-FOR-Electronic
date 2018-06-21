@@ -42,7 +42,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<title>shop</title>
 	  <link rel="stylesheet" type="text/css" href="css/personal.css">
 	  <link rel="stylesheet" type="text/css" href="css/common.css">
-	  <script src="script/xuanfa.js"></script>
 </head>
 <body>
 	<header>

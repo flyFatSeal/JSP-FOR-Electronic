@@ -82,3 +82,13 @@ footer>.container>p { position: absolute; top: 40%;  left:35%; margin: 0 auto; t
 #table > tfoot > tr,td {
 	height: 3px;
 }
+#titleCart {
+	font-size: 2.5rem;
+    opacity: 0.4;
+    font-family: kaiti;
+}
+#titleCart > span {
+	font-size: 3rem;
+    margin-left: 5%;
+    opacity: 0.8;
+}

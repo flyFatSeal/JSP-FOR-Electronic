@@ -28,7 +28,6 @@
 	  <link rel="stylesheet" type="text/css" href="css/admin.css">
 	  <link rel="stylesheet" type="text/css" href="css/common.css">
 	  <link rel="stylesheet" type="text/css" href="css/admit1.css">
-	  <script src="script/xuanfa.js"></script>
 </head>
 <body>
 	<header>

@@ -29,7 +29,6 @@
     <title>shop</title>
     <link rel="stylesheet" type="text/css" href="css/commonshow.css">
     <link rel="stylesheet" type="text/css" href="css/common.css">
-    <script src="script/xuanfa.js"></script>
 </head>
 
 <body>
@@ -123,7 +122,7 @@
                 out.println("<div class=\"yifu\">");   
                 out.println("<div>");
                 out.println("<a href='"+a+"?bm="+bm+"''>");       
-                out.println("<img src='"+ img +"' >");
+                out.println("<img width=80% src='"+ img +"' >");
                 out.println("</a>");   
                 out.println("<p>"+ info +"</p>");  
                 out.println("</div>"); 
