@@ -1,4 +1,5 @@
-    var clean = document.getElementById("clean");
+window.onload = function() {
+	var clean = document.getElementById("clean");
     clean.onclick=function(){
        window.location="clean.jsp"; 
     }
@@ -44,7 +45,7 @@ function getUrl(){
     let name = inputs[1].value;
     let info = inputs[2].value;
     let price = inputs[3].value;
-    let url = "pic.jsp?&name="+name+"&info="+info+"&price="+price;
+    let url = "add.jsp?&name="+name+"&info="+info+"&price="+price;
     console.log(url);
     return url;
 }
@@ -53,4 +54,5 @@ function cleanInputs (){
 	inputs[1].value = '';
 	inputs[2].value = '';
 	inputs[3].value = '';
+}
 }

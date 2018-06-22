@@ -1,4 +1,5 @@
-    var open = document.getElementById("search");
+window.onload = function() {
+	var open = document.getElementById("search");
     var beijing = document.getElementById("beijing");
     var disappear = document.getElementById("disappear");
     var cart = document.getElementById("cart");
@@ -30,3 +31,4 @@
        login1.href="personal.jsp";
        cart1.href="cart.jsp";
      }
+}
