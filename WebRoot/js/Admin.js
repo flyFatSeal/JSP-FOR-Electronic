@@ -1,4 +1,3 @@
-window.onload = function() {
 	var clean = document.getElementById("clean");
     clean.onclick=function(){
        window.location="clean.jsp"; 
@@ -54,5 +53,4 @@ function cleanInputs (){
 	inputs[1].value = '';
 	inputs[2].value = '';
 	inputs[3].value = '';
-}
 }
