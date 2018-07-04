@@ -1,4 +1,3 @@
-window.onload = function() {
 	let cartPrice = getPrices()
     function updateNum(id,num,price){  
     	wirtePrice(cartPrice)
@@ -24,4 +23,3 @@ window.onload = function() {
     	wirtePrice(cartPrice)
     }
     initPrice()
-}
