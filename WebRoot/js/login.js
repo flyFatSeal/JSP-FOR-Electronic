@@ -1,4 +1,3 @@
-window.onload = function() {
 	function showBtn() {
 		var oBtn = document.getElementById('a');
 		var get = document.getElementById("div1");
@@ -30,5 +29,3 @@ window.onload = function() {
 		}
 	}
 	back(this);
-
-}
